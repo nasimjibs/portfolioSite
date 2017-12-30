@@ -14,7 +14,7 @@ $(document).ready(function(){
   $('.skill_thirteen').animate({width:'60%'}, 1000);
 
     
-    $('a#filter-a').click(function(){
+    $('.filter-a').click(function(){
        //hide all works by default 
        $(".work-one").addClass('filter-hide');
        //show slected works based on the menu clicked
